@@ -6,11 +6,6 @@
 ```bash
 sudo snap install pycharm-community --classic
 ```
-### Запуск PyCharm
-```bash
-pycharm
-```
-
 ## Установка Far Manager
 ### Установка wime для работы с Far Manager
 ```bash
@@ -29,47 +24,40 @@ wget https://www.farmanager.com/Far30b.x64.20240510.msi
 sudo apt update
 sudo apt install python3 python3-pip
 ```
-
+Успешность установки Python можно проверить выполнив следующую команду
 ### Версия python
 ```bash
 python3 -V
 ```
-
 ![Python -V](./screenshots/1.png)
 
-# Просмотр списка установленных пакетов
+### Просмотр списка установленных пакетов
 ```bash
 pip list
 ```
-# Создание репозитория в котором будет установленно виртуальное окружение
+### Создание репозитория в котором будет установленно виртуальное окружение
 ```bash
 mkdir Projects Projects/django
 cd Projects/django
 ```
-# Запуск PyCharm
+### Запуск PyCharm
 ```bash
 pycharm-community
 ```
-# Создание виртуального окружения
+### Создание и запуск виртуального окружения
 ```bash
 python3 -m venv djvenv
-```
-# Если возникает ошибка при создании
-```bash
-#sudo apt install python3.10-venv
-```
-# Запуск вирутального окружения
-```bash
 source djvenv/bin/activate
 ```
-# При успешном выполнении появится надпись "djvenv"
+При успешном выполнении появится надпись "djvenv"
+![djvenv](./screenshots/2.png)
+### Команда для выхода из виртуального окружения
+```bash
+deactivate
+```
 # При просмотре установленных пакетов внутри виртуального окружения мы увидим всего два пакета
 ```bash
 pip list
-```
-# Команда для выхода из виртуального окружения
-```bash
-deactivate
 ```
 ## Установка Django
 ```bash
