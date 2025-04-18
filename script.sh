@@ -12,8 +12,7 @@ sudo snap install pycharm-community --classic
 pycharm
 
 ## Установка Far Manager
-
-# Установка 
+# Установка wime для работы с Far Manager
 
 sudo apt install wine
 
