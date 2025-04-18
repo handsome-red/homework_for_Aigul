@@ -1,11 +1,7 @@
-## Django
+### Django
 
-### Установка python
+## Task 1
 
-```bash
-sudo apt update
-sudo apt install python3 python3-pip
-```
 ### Установка PyCharm
 ```bash
 sudo snap install pycharm-community --classic
@@ -14,19 +10,33 @@ sudo snap install pycharm-community --classic
 ```bash
 pycharm
 ```
+
 ## Установка Far Manager
 ### Установка wime для работы с Far Manager
 ```bash
 sudo apt install wine
 ```
-# Загрузка Far Manager
+### Загрузка Far Manager
 ```bash
 wget https://www.farmanager.com/Far30b.x64.20240510.msi
 ```
-# Версия python
+
+## Task 2
+
+### Установка python
+
+```bash
+sudo apt update
+sudo apt install python3 python3-pip
+```
+
+### Версия python
 ```bash
 python3 -V
 ```
+
+![Python -V](./screenshots/1.png)
+
 # Просмотр списка установленных пакетов
 ```bash
 pip list
