@@ -78,3 +78,7 @@ cd sitewomen
 
 # Применение маграции к базе данных
 #python manage.py migrate
+
+python manage.py runserver
+
+python manage.py startapp women

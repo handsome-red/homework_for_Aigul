@@ -1,4 +1,4 @@
-#!/home/atlas/Документы/Aigul/Projects/django/djvenv/bin/python3
+#!/home/atlas/Документы/Aigul/homework_for_Aigul/Projects/django/djvenv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

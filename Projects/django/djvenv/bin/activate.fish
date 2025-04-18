@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV '/home/atlas/Документы/Aigul/Projects/django/djvenv'
+set -gx VIRTUAL_ENV '/home/atlas/Документы/Aigul/homework_for_Aigul/Projects/django/djvenv'
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH
