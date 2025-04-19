@@ -17,9 +17,13 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include, re_path
 from women import views
+from women.views import page_not_found
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('', include('women.urls')),
-    re_path(r'^archive/(?P<year>[0-9]{4})/$', views.archive),
+    path('', views.index, name='home'),
+    path('cats/<slug:cat_slug>/', views.categories_by_slug, name='cats'),
+    path('cats/<int:cat_id>/', views.categories, name='cats_id'),
+    re_path(r'^archive/(?P<year>[0-9]{4})/', views.archive, name='archive'),
 ]
+
+handler404 = page_not_found

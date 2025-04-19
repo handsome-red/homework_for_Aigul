@@ -282,3 +282,9 @@ urlpatterns = [
 ```
 
 # TASK 7
+Изменим функцию
+```python
+def categories_by_slug(request, cat_slug):
+    print(request.GET)
+    return HttpResponse(f"<h1>Статьи покатегориям</h1><p >slug: {cat_slug}</p>")
+```
